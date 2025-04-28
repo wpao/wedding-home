@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: "0.0.0.0", // Penting untuk Docker!
-    port: 3002,
+    port: 3005,
     allowedHosts: ["wedding.albaeud.cyou"], // Tambahkan domain Anda di sini
   },
 });

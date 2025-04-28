@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     host: "0.0.0.0", // Penting untuk Docker!
     port: 3005,
-    allowedHosts: ["wedding.albaeud.cyou"], // Tambahkan domain Anda di sini
+    allowedHosts: ["home.albaeud.cyou"], // Tambahkan domain Anda di sini
   },
 });
